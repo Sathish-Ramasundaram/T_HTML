@@ -7,5 +7,3 @@ Using HTML forms for user input
 Semantic HTML (using appropriate tags to convey meaning and structure)
 HTML5 new tags and attributes
 
-HTML Study Guide for GitHub README
-https://copilot.microsoft.com/shares/pages/VVXRzJznkPE5VgYo2v6o7
