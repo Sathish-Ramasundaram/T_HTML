@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Forms Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <h1>Using HTML Forms for User Input</h1>
+  <p>Forms (<code>&lt;form&gt;</code>) collect user input. Elements like 
+     <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, 
+     <code>&lt;select&gt;</code>, and <code>&lt;button&gt;</code> 
+     allow interaction. W3C standards ensure accessibility and proper labeling.</p>
+
+  <hr>
+
+  <!-- Form starts here -->
+  <form action="/submit" method="post">
+    <!-- Text input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="username" required>
+    <br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="useremail">
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="usermessage" rows="4" cols="40" placeholder="Enter your message"></textarea>
+    <br><br>
+
+    <!-- Dropdown -->
+    <label for="role">Role:</label>
+    <select id="role" name="userrole">
+      <option value="student">Student</option>
+      <option value="developer">Developer</option>
+      <option value="designer">Designer</option>
+    </select>
+    <br><br>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>

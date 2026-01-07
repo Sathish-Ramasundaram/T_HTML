@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 New Tags and Attributes Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <header>
+    <h1>HTML5 Features Demo</h1>
+    <p>Demonstration of new HTML5 tags and attributes</p>
+  </header>
+
+  <!-- Video Section -->
+  <section>
+    <h2>Featured Video</h2>
+    <video controls width="400">
+      <source src="sample.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Audio Section -->
+  <section>
+    <h2>Audio Example</h2>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <!-- Canvas Section -->
+  <section>
+    <h2>Canvas Example</h2>
+    <canvas id="myCanvas" width="300" height="100"></canvas>
+  </section>
+
+  <!-- Sidebar -->
+  <aside>
+    <h3>Note</h3>
+    <p>HTML5 removes the need for external plugins like Flash.
+       Before HTML5, browsers could not play video, audio, or animations natively.
+       So websites depended on external plugins, such as: Adobe Flash, Silverlight, Java Applets. Users had to install these plugins manually. 
+    </p>
+  </aside>
+
+  <!-- Form Section -->
+  <section>
+    <h2>HTML5 Form Attributes</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" placeholder="Enter your name" required autofocus><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" placeholder="Enter your email" required><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 HTML5 Demo</p>
+  </footer>
+
+  <script>
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "blue";
+    ctx.fillRect(20, 20, 150, 50);
+  </script>
+
+</body>
+</html>
